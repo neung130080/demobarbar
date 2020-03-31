@@ -8,14 +8,25 @@
         </v-card-title>
         <v-container>
           <v-row>
-            <v-col cols="4" md="2">
-              <v-text-field label="คำนำหน้า" hint="ห้าม! ใส่อักษรย่อ" outlined></v-text-field>
+            <v-col cols="4" md="3">
+              <v-select :items="['นาย','นาง','นางสาว']" label="คำนำหน้า" dense solo></v-select>
             </v-col>
-            <v-col cols="10" md="5">
-              <v-text-field label="ชื่อ / (TH)" hint="ระบุเป็นภาษาไทย" outlined></v-text-field>
+            <v-col cols="12" md="7">
+              <v-text-field label="ชื่อ / (TH)" hint="ระบุเป็นภาษาไทย" dense outlined></v-text-field>
+              <v-text-field label="นามสกุล / (TH)" hint="ระบุเป็นภาษาไทย" dense outlined></v-text-field>
+            </v-col>
+            <v-col cols="4" md="3">
+              <v-select :items="['Mr.','Mrs.','Miss.']" label="คำนำหน้า (EN)" dense solo></v-select>
+            </v-col>
+            <v-col cols="10" md="7">
+              <v-text-field label="Name / (EN)" hint="ระบุเป็นภาษาอังกฤษ" dense outlined></v-text-field>
+              <v-text-field label="Surname / (EN)" hint="ระบุเป็นภาษาอังกฤษ" dense outlined></v-text-field>
             </v-col>
             <v-col cols="10" md="5">
               <v-text-field label="นามสกุล / (TH)" hint="ระบุเป็นภาษาไทย" outlined></v-text-field>
+            </v-col>
+            <v-col cols="4" md="2">
+              <v-text-field label="Mr./Mrs./Miss" hint="(EN)ห้าม! ใส่อักษรย่อ" outlined></v-text-field>
             </v-col>
             <v-col cols="10" md="5">
               <v-text-field label="Name / (EN)" hint="ระบุเป็นภาษาอังกฤษ" outlined></v-text-field>
@@ -23,9 +34,28 @@
             <v-col cols="10" md="5">
               <v-text-field label="Lastname / (EN)" hint="ระบุเป็นภาษาอังกฤษ" outlined></v-text-field>
             </v-col>
-             <v-col cols="4" md="2">
+            <v-col cols="4" md="2">
               <v-text-field label="อายุ / Age" hint="ระบุเป็นตัวเลข" outlined></v-text-field>
             </v-col>
+            <v-col cols="4" md="2">
+              <v-text-field label="อายุ / Age" hint="ระบุเป็นตัวเลข" outlined></v-text-field>
+            </v-col>
+            <v-col cols="4" md="2">
+              <v-text-field label="อายุ / Age" hint="ระบุเป็นตัวเลข" outlined></v-text-field>
+            </v-col>
+            <v-col cols="4" md="2">
+              <v-text-field label="อายุ / Age" hint="ระบุเป็นตัวเลข" outlined></v-text-field>
+            </v-col>
+            <v-col cols="4" md="2">
+              <v-text-field label="อายุ / Age" hint="ระบุเป็นตัวเลข" outlined></v-text-field>
+            </v-col>
+            <v-col cols="4" md="2">
+              <v-text-field label="อายุ / Age" hint="ระบุเป็นตัวเลข" outlined></v-text-field>
+            </v-col>
+            <v-col cols="4" md="2">
+              <v-text-field label="อายุ / Age" hint="ระบุเป็นตัวเลข" outlined></v-text-field>
+            </v-col>
+
             <v-col class="hidden-sm-and-down text-right" md="2">
               <v-icon size="64">mdi-calendar-text</v-icon>
             </v-col>
